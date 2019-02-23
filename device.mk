@@ -48,10 +48,6 @@ $(call inherit-product, device/xiaomi/sdm845-common/sdm845.mk)
 PRODUCT_PACKAGES += \
     fstab.qcom
 
-# Device init scripts
-PRODUCT_PACKAGES += \
-    init.target.rc
-
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml:system/etc/qdcm_calib_data_gvo_fhd_cmd_dsi_panel.xml \
